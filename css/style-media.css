@@ -1,0 +1,383 @@
+* {
+	transition: all 0.5s;
+}
+@media (max-width: 1000px) {
+	.navbar, footer {
+		width: 800px;
+		margin: 0 auto;
+	}
+	.link1, .link2, .link3, .link4 {
+		margin: 0px 15px;
+	}
+	.wrapper {
+		width: 100%
+	}
+	.menu {
+		flex-wrap: wrap;
+		margin: 0 auto;
+		width: 800px;
+		margin-top: 12px;
+	}
+	.right-block {
+		width: 800px;
+		justify-content: center;
+		align-items: center;
+		margin-top: 7px;
+		margin-bottom: 7px;
+	}
+	.left-block {
+		width: 800px;
+		justify-content: space-between;
+	}
+	.all-product, .desert, .news, .pizza, .sous, .sushi, .tea, .water, .zakuski {
+		width: 800px;
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+	.contacts > img {
+		width: 800px;
+		height: 400px;
+		margin: 0 auto;
+		margin-top: 70px;
+
+	}
+	.contact-info {
+		width: 800px;
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+	.block-info {
+		width: 370px;
+	}
+	iframe {
+		width: 800px;
+		margin: 0 auto;
+		margin-left: 200px;
+	}
+	.form {
+		width: 800px;
+		height: 400px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+		margin-top: 70px;
+	}
+	.masterkl {
+		width: 800px;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		margin-top: 100px;
+	}
+	.masterkl-news {
+		width: 300px;
+	}
+	.masterkl-news > p {
+		width: 300px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+	.navbar, footer {
+		width: 500px;
+		margin: 0 auto;
+	}
+	.link1, .link2, .link3, .link4 {
+		margin: 0px 7px;
+	}
+	.wrapper {
+		width: 100%
+	}
+	.menu {
+		flex-wrap: wrap;
+		margin: 0 auto;
+		width: 500px;
+		margin-top: 55px;
+	}
+	.right-block {
+		width: 500px;
+		justify-content: center;
+		align-items: center;
+		margin-top: 7px;
+		margin-bottom: 7px;
+		
+	}
+	.basket {
+		width: 250px;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+	}
+	.left-block {
+		width: 500px;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.all-product, .desert, .news, .pizza, .sous, .sushi, .tea, .water, .zakuski {
+		width: 500px;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.desert-product, .news-product, .sushi-product, .pizza-product, .sous-product, .tea-product, .water-product, .zakuski-product {
+		width: 400px;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	footer {
+		flex-wrap: wrap;
+	}
+	.links {
+		width: 500px;
+		justify-content: space-between;
+	}
+	.block1 {
+		width: 500px;
+		justify-content: center;
+		align-items: center;
+	}
+	.contacts > img {
+		width: 500px;
+		height: 300px;
+		margin: 0 auto;
+		margin-top: 100px;
+
+	}
+	.contact-info {
+		width: 500px;
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+	.block-info {
+		width: 240px;
+	}
+	iframe {
+		width: 500px;
+		margin: 0 auto;
+		margin-left: 350px;
+	}
+	.wrapper {
+		display: none;
+	}
+	.table {
+		margin-top: 70px;
+    }
+    .form {
+		width: 500px;
+		background: none;
+		margin: 0 auto;
+		margin-bottom: 40px;
+		margin-top: 100px;
+	}
+	button {
+		height: 70px;
+	}
+	.masterkl {
+		width: 500px;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		margin-top: 150px;
+	}
+	.masterkl-news {
+		width: 500px;
+		margin: 0 auto;
+	}
+	.masterkl-news > p {
+		width: 500px;
+		margin: 0 auto;
+	}
+	.masterkl-img {
+		display: none;
+	}
+	#slider {
+		display: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+	.navbar, footer {
+		width: 300px;
+		margin: 0 auto;
+	}
+	.link1, .link2, .link3, .link4 {
+		margin: 0px 7px;
+	}
+	.wrapper {
+		width: 100%;
+		display: none;
+
+	}
+	.menu {
+		flex-wrap: wrap;
+		margin: 0 auto;
+		width: 300px;
+	}
+	.right-block {
+		width: 300px;
+		justify-content: center;
+		align-items: center;
+		margin-top: 7px;
+		margin-bottom: 7px;
+		margin-top: 170px;
+		
+	}
+	.menu > .right-block > a {
+		font-size: 30px;
+	}
+	.basket {
+		width: 250px;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+	}
+	.left-block {
+		width: 300px;
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+	.phone {
+		width: 300px;
+		margin: 0 auto;
+		padding: 5px;
+		justify-content: center;
+		align-items: center;
+	}
+	.new {
+		width: 300px;
+		margin: 0 auto;
+		padding: 5px;
+	}
+	.mstrclass {
+		width: 300px;
+		margin: 0 auto;
+		padding: 5px;
+	}
+	.table {
+		margin-top: 150px;
+	}
+	.all-product, .desert, .news, .pizza, .sous, .sushi, .tea, .water, .zakuski {
+		width: 300px;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		margin-top: 150px;
+		margin-left: 425px;
+	}
+	.desert-product, .news-product, .sushi-product, .pizza-product, .sous-product, .tea-product, .water-product, .zakuski-product  {
+		width: 350px;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+
+	.product {
+		width: 300px;
+	}
+	footer {
+		flex-wrap: wrap;
+	}
+	.links {
+		width: 300px;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.block1 {
+		width: 300px;
+		justify-content: center;
+		align-items: center;
+	}
+	.navbar {
+		width: 300px;
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+	.container > .navbar > p {
+		width: 300px;
+		margin: 0 auto;
+		height: 1px;
+	}
+	.container > .navbar > img {
+		display: none;
+
+	}
+	.container > .navbar > a {
+		width: 100px;
+		height: 10px;
+
+	}
+	.contacts > img {
+		display: none;
+
+	}
+	.contact-info {
+		width: 350px;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		margin-top: 150px;
+
+	}
+	.block-info {
+		width: 350px;
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+	iframe {
+		width: 300px;
+		margin: 0 auto;
+		margin-left: 450px;
+	}
+	.wrapper {
+		display: none;
+	}
+	.form {
+		width: 300px;
+		background: none;
+		margin: 0 auto;
+		margin-bottom: 40px;
+		margin-top: 170px;
+	}
+	.form > p {
+		width: 300px;
+		height: 150px;
+	}
+	button {
+		height: 70px;
+	}
+	input {
+		width: 300px;
+	}
+	.masterkl {
+		width: 300px;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		margin-top: 200px;
+	}
+	.masterkl-news {
+		width: 300px;
+		margin: 0 auto;
+	}
+	.masterkl-news > p {
+		width: 300px;
+		margin: 0 auto;
+	}
+	#slider {
+		display: none;
+	}
+
+}

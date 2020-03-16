@@ -1,0 +1,28 @@
+.contacts > img {
+	height: 600px;
+    width: 1200px;
+    display: flex;
+}
+.block-info {
+	width: 250px;
+	height: 150px;
+	background: orange;
+	border-radius: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.block-info > p {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bolder;
+	cursor: default;
+}
+.contact-info {
+	display: flex;
+	justify-content: space-between;
+}
+.block-info-color {
+	color: #990000;
+}

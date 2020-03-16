@@ -1,0 +1,23 @@
+.masterkl {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+.masterkl-news {
+	width: 500px;
+
+}
+.masterkl-img {
+	display: flex;
+	width: 500px;
+	flex-wrap: wrap;
+}
+.masterkl-img > img {
+	width: 250px;
+	height: 250px;
+	transition: 0.5s;
+}
+.masterkl-img > img:hover {
+	transform: scale(1.3)
+}
